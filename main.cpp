@@ -8,7 +8,7 @@
 using namespace std;
 using namespace cv;
 
-int main()
+float main()
 {
 	time_t t_start,t_end;
 	t_start = time(0);
@@ -27,6 +27,6 @@ int main()
 
 	//cout << "Time : " <<  (float(time) / CLOCKS_PER_SEC) << "sec" << endl;
 
-	return 0;
+	return 0.0;
 }
 
